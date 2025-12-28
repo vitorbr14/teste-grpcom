@@ -1,0 +1,37 @@
+.artigo-nav {
+  padding: 28px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+  display: flex;
+  justify-content: center;
+
+  transition: background-color 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 420ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 420ms cubic-bezier(0.16, 1, 0.3, 1),
+    padding 420ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  will-change: background-color, box-shadow, border-color, padding;
+}
+
+.artigo-nav-blur {
+  background-color: rgba(255, 255, 255, 0.82);
+
+  border-bottom-color: rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.voltar-artigos {
+  display: flex;
+  align-items: center;
+}

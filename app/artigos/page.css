@@ -1,0 +1,14 @@
+.btn-pagination {
+  background-color: #d3d3d3;
+  padding: 10px;
+  border-radius: 20px;
+  color: #36454f;
+  font-weight: 600;
+}
+
+.wrapper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 50px 0;
+}

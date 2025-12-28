@@ -1,0 +1,173 @@
+.artigo-header {
+  position: relative;
+  min-height: 60vh;
+  padding: 96px 0 64px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.artigo-hero-img {
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.artigo-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: #000000;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(253, 187, 45, 0) 100%
+  );
+}
+.artigo-header .container-artigo {
+  position: relative;
+  z-index: 2;
+}
+.title-artigo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+.assunto-artigo {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.article-hero-content {
+  max-width: 720px;
+}
+.container-inside-artigo {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.container-artigo {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.artigo-summary {
+  margin-top: 50px;
+}
+.artigo-excerpt {
+  position: relative;
+}
+.artigo-excerpt:before {
+  content: "";
+  width: 4px;
+  height: 90%;
+  background-color: rgb(169, 182, 199);
+  position: absolute;
+  left: -30px;
+}
+
+.artigo-excerpt h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(100, 116, 139);
+  line-height: 1.6;
+  padding-left: 24px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(229, 231, 235);
+  margin: 34px 0;
+}
+.artigo-infos {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 32px;
+}
+.meta-item {
+  display: flex;
+  align-items: center;
+}
+
+.meta-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background-color: rgb(229, 231, 235);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.meta-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.meta-value {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.meta-label {
+  font-size: 12px;
+  color: rgb(100, 116, 139);
+  font-weight: 500;
+}
+
+.artigo-content {
+  margin-top: 48px;
+  line-height: 1.8;
+  font-size: 18px;
+  color: rgb(51, 65, 85);
+}
+
+@media (max-width: 768px) {
+  .container-artigo {
+    padding: 0 32px;
+  }
+
+  .artigo-header {
+    min-height: 65vh;
+    padding: 64px 0 48px;
+  }
+
+  .title-artigo {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .artigo-excerpt:before {
+    display: none;
+  }
+
+  .artigo-excerpt h2 {
+    padding-left: 0;
+    font-size: 18px;
+  }
+  .artigo-infos {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .artigo-content {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-artigo {
+    padding: 0 40px;
+  }
+}
