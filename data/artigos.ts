@@ -53,7 +53,8 @@ const articles = [
     author: "Laura Ferreira",
     publishedAt: "2025-08-05",
     category: "Saúde",
-    heroImage: "https://images.unsplash.com/photo-1506126614200-6b4c5b0a8e08",
+    heroImage:
+      "https://images.unsplash.com/photo-1602192509154-0b900ee1f851?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content:
       "Praticar mindfulness não requer horas de meditação... Lorem ipsum dolor sit amet.",
   },
@@ -64,7 +65,8 @@ const articles = [
     author: "Ricardo Alves",
     publishedAt: "2025-12-01",
     category: "Finanças",
-    heroImage: "https://images.unsplash.com/photo-1621768216004-0ac1e6c13a6f",
+    heroImage:
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     content:
       "O mercado de criptomoedas continua volátil, mas com maturidade crescente... Lorem ipsum dolor sit amet.",
   },
