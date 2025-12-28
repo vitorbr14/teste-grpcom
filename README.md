@@ -29,6 +29,10 @@ npm install
 ```bash
 npx next dev
 ```
+5. Acesse o projeto pelo navegador
+```bash
+localhost:3000/
+```
 
 ## Decisões técnicas
 
