@@ -17,19 +17,18 @@ git clone https://github.com/vitorbr14/teste-grpcom.git
 
 ```bash
 cd nome-do-projeto
-
 ```
 
 3. Instalar as dependências
 
-````bash
+```bash
 npm install
-``
+```
 
 4. Rode o projeto em ambiente de desenvolvimento:
 ```bash
 npx next dev
-````
+```
 
 ## Decisões técnicas
 
