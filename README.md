@@ -16,7 +16,7 @@ git clone https://github.com/vitorbr14/teste-grpcom.git
 2. Entre na pasta do projeto:
 
 ```bash
-cd nome-do-projeto
+cd teste-grpcom
 ```
 
 3. Instalar as dependências
